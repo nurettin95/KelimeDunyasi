@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "792050201971",
+    "project_id": "kelimedunyasi-a0b5d",
+    "storage_bucket": "kelimedunyasi-a0b5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792050201971:android:149fc1de75c8fe81194106",
+        "android_client_info": {
+          "package_name": "com.nurettingorsoy.kelimedunyasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792050201971-dnqiv7uip13v6rrpa32um11u86lilbrl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkDJnD9g5cJrFcwNSa80xyNWch9ilSWiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792050201971-dnqiv7uip13v6rrpa32um11u86lilbrl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

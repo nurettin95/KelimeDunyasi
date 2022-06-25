@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MetinTara"
+    android:background="#E57373">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="10dp"
+        android:maxLines="5"
+        android:text=""
+        android:textColor="#11aa99"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/goruntu_yakala_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/metin_yakala_button"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#424242"
+        android:text="Görüntüyü Çek"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+
+        />
+
+    <Button
+        android:id="@+id/metin_yakala_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="53dp"
+        android:backgroundTint="#424242"
+        android:text="Metin Görüntüsünü Yakala"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/translateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="#424242"
+        android:text="Çevir"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/inputToTranslate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_marginBottom="-54dp"
+        android:ems="10"
+        android:hint="Metin Girin"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/translatedTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="106dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Çeviri"
+        android:maxLines="5"
+        android:text=""
+        android:textColor="#11aa99"
+        android:textSize="24sp" />
+
+</RelativeLayout>
